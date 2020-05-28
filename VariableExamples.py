@@ -36,3 +36,9 @@ f=10.3
 dynamictuple = (x,y,z,s,f)
 print("dynamictuple : ", dynamictuple[0], dynamictuple[1], dynamictuple[2], dynamictuple[3], dynamictuple[4])
 print("dynamictuple type: ", type(dynamictuple[0]), type(dynamictuple[1]), type(dynamictuple[2]), type(dynamictuple[3]), type(dynamictuple[4]))
+
+
+#----------------- ERROR -------------
+a = 100
+s = "str"
+#a = a + s # Type Error 
