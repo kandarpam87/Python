@@ -1,3 +1,4 @@
+from ctypes import *
 
 x=10
 y=20
@@ -7,6 +8,7 @@ f=10.3
 dynamictuple = x,y,z,s,f
 print("dynamictuple : ", dynamictuple)
 print("dynamictuple type: ", type(dynamictuple[0]), type(dynamictuple[1]), type(dynamictuple[2]), type(dynamictuple[3]), type(dynamictuple[4]))
+print("dynamictuple ids: ", id(dynamictuple[0]), id(dynamictuple[1]), id(dynamictuple[2]), id(dynamictuple[3]), id(dynamictuple[4]))
 
 
 
