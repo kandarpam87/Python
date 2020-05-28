@@ -36,3 +36,20 @@ f=10.3
 dynamictuple = x,y,z,s,f
 print("dynamictuple : ", dynamictuple)
 print("dynamictuple type: ", type(dynamictuple[0]), type(dynamictuple[1]), type(dynamictuple[2]), type(dynamictuple[3]), type(dynamictuple[4]))
+
+
+
+#-------- EMPTY TUPLE -----------
+emptyTuple = (None,)
+print("type(emptyTuple) = ", type(emptyTuple))
+print("emptyTuple = ", emptyTuple)
+
+et = None,
+
+print("type(et) = ", type(et))
+print("(et) = ", et)
+
+
+et1 = ()
+print("type(et1) = ", type(et1))
+print("(et1) = ", et1)
