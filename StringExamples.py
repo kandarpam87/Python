@@ -7,6 +7,8 @@ Ex: str.
 
 s1 = "Welcome to PSL"
 
+print(s1.decode())
+
 print("s1 = ", s1, ", id(s1) = ", id(s1))
 
 print("""s1.find("PSL") = """, s1.find("PSL")) #Retruns 11

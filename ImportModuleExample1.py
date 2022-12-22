@@ -11,6 +11,9 @@ There are 3 ways to make module available.
 
 import Utility
 
+import Utility
+
+'''
 print ("Utility.pi : ", Utility.pi)
 
 
@@ -37,3 +40,4 @@ b = float(input().rstrip())
 print("Rectangle Area with l as ",l,", b as ",b," : ", Utility.recangle_area(l,b))
 
 Utility.print_seperator()
+'''
